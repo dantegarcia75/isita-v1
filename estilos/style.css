@@ -10,7 +10,7 @@ header{
     padding: .5rem 2rem;
 }
 .logo-header img{
-    width: 50px;
+    width: 300px;
 }
 .nav-menu ul{
     display: flex;
@@ -34,7 +34,9 @@ header{
 }
 .menu-icon, #check{
     display: none;
+    
 }
+
 
 /* el main*/
 
@@ -61,7 +63,7 @@ main{
     .menu-icon{
         display: block;
         position: fixed;
-        top: 20px;
+        top: 12px;
         right: 20px;
         cursor: pointer;
     }
@@ -88,5 +90,16 @@ main{
     #check:checked ~ ul{
         left: 0;
         transition: all .25s;
+    }
+    .img-construccion{
+        width: 520px;
+    }
+    .logo-header img{
+        width: 150px;
+    }
+    .menu-icon img{
+        width: 20px;
+        height: 20px;
+       
     }
 }
