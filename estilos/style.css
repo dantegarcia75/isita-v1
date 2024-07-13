@@ -36,6 +36,10 @@ header{
     display: none;
     
 }
+.img-construccion{
+    width: 1000px;
+    
+}
 
 
 /* el main*/
@@ -92,7 +96,7 @@ main{
         transition: all .25s;
     }
     .img-construccion{
-        width: 450px;
+        width: 300px;
     }
     .logo-header img{
         width: 150px;
